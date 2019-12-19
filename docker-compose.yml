@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  fpm-74:
+    build: ./container/php-fpm-74
+  fpm-73:
+    build: ./container/php-fpm-73
+  fpm-72:
+    build: ./container/php-fpm-72
+  apache-24:
+    build: ./container/apache-24
+  mysql-55:
+    build: ./container/mysql-55
