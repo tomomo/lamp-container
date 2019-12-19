@@ -38,7 +38,7 @@ Generate a Docker image for building a LAMP environment.
           - .:/var/www/html:Z
           # - ./certificate:/usr/local/apache2/certificate:ro
       php-fpm:
-        image: lamp-container_fpm-74
+        image: lamp-container_php-fpm-74
         restart: always
         volumes:
           - .:/var/www/html:Z
