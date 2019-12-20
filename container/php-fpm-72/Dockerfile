@@ -5,6 +5,7 @@ LABEL maintainer "tomomo <eclairpark@gmail.com>"
 ENV PHPIZE_DEPS autoconf gcc g++ libtool make libc-dev libtool re2c
 
 RUN apk add --no-cache \
+  zip \
   bzip2-dev \
   gettext-dev \
   openldap-dev \
