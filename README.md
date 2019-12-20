@@ -12,7 +12,7 @@ Generate a Docker image for building a LAMP environment.
     docker-compose build
 
     # confirm images.
-    docker images | grep php-custom-docker
+    docker images | grep lamp-container
 
     lamp-container_mysql-55   latest  59455c5fe314  13 seconds ago  205MB
     lamp-container_apache-24  latest  12f6655cf636  16 seconds ago  130MB
